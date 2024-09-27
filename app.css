@@ -1,0 +1,28 @@
+
+
+nav, article, a, body{
+    font-family:"roboto", system-ui;
+    font-weight:300;
+    font-style:normal;
+}
+
+nav{
+    background-color:rgb(46, 63, 100);
+    padding:.0006em;
+    color: rgb(195, 207, 233);
+    font-size:x-large
+}
+
+a{
+text-decoration: none;
+color:white;
+}
+
+a :hover  {
+    text-decoration: underline;
+}
+
+body{
+    color:white;
+    background-color: rgb(50, 50, 50);
+}
