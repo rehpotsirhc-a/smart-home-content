@@ -5,27 +5,17 @@ h1{
   line-height: 0px;
 }
 
-aside > p {
-    background-color: rgb(91, 91, 91) ;
-    padding: 3mm;
-}
-
 em{
     font-family: 'Brush Script MT', cursive;
     font-size: 40px;
   }
 
-nav, article, a, body{
-    font-family:"roboto", system-ui;
-    font-weight:300;
-    font-style:normal;
-}
 
 nav{
-    background-color:rgb(46, 63, 100);
+    background-color:rgb(50, 50, 50);
     padding:2mm;
     color: #c7d8fd;
-    font-size:xlarge
+
 }
 
 a{
@@ -35,7 +25,7 @@ color:white;
 
 body{
     color:white;
-    background-color: rgb(50, 50, 50);
+    background-color:#2e3f64;
 }
 nav > a {
     background-color: rgb(225, 235, 255);
@@ -88,24 +78,25 @@ center > a {
     transition-timing-function: ease ;
 }
 
+
 nav > a:hover  {
     background-color: aliceblue;
     color: #2e3f64;
 }
 img {
-    border: 4px solid #2e3f64;
+    border: 4px solid rgb(0, 0, 0);
 }
 p{
 text-align: center;
 }
 
 aside{
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 25px;
-    padding-bottom: 30px;
-    width: 60%;
-    margin-left: 15px;
+    padding-left:15px;
+  
+    padding-top:20px;
+    padding-bottom: 60px;
+    width: 97%;
+    height: 10%;
     float: center;
     background-color: #2e3f64;
     text-align:left;
@@ -118,5 +109,102 @@ footer > center > aside{
     padding-bottom: 30px;
     width: 100%;
     float: right;
-    background-color: #2e3f64;
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+}
+
+div > p {
+    text-align: left;
+}
+
+
+
+/* Some default styles to make each box visible. This targets all items with a class that starts with "box" */
+[class^="box"] {
+  color:white;
+  font-size: 5px;
+  text-align: center;
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+  padding:10px;
+}
+
+/* Colors for each box */
+.box1 { background:rgb(50, 50, 50);}
+.box2 { background:rgb(50, 50, 50);}
+.box3 { background:rgb(50, 50, 50);}
+.box4 { background:rgb(50, 50, 50);}
+.box5 { background:rgb(50, 50, 50);}
+box6 { background:#2e3f64;}
+box7 { background:#2e3f64;}
+
+
+.flex-container {
+
+  border:10px solid #2e3f64;
+  width:70vw;
+  height:110vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  margin: auto ;
+}
+
+[class^="box"] {
+    
+}
+
+.box1 {
+  border:px solid; 
+  margin-top: 3px;
+  height: 45%;
+  order:0;  
+  width: 48.5%;
+  font-size: 20px;
+
+}
+.box2 {
+  margin-top: 3px;
+  height: 45%;
+  order:0;
+  width:48.5%;
+  font-size: 20px
+}
+
+.box3 {
+  margin-top:4px;
+  order:1;
+  width:33%;
+  font-size: 15px;
+  height: 47%;
+}
+
+.box4 {
+  margin-top:4px;
+  order:1;
+  width:29%;
+  font-size: 15px;
+  height: 47%;
+
+}
+
+.box5 {
+  margin-top:4px;
+  order:1;
+  width:33%;
+  font-size: 15px;
+  height: 47%;
+
+
+}
+.box6 {
+  order:2;
+  width:33%;
+
+}
+.box7 {
+  order:2;
+  width:33%;
+
 }
