@@ -83,6 +83,12 @@ nav > a:hover  {
     background-color: aliceblue;
     color: #2e3f64;
 }
+
+nav > footer > a:hover  {
+  background-color: aliceblue;
+  color: #2e3f64;
+}
+
 img {
     border: 4px solid rgb(0, 0, 0);
 }
@@ -92,7 +98,6 @@ text-align: center;
 
 aside{
     padding-left:15px;
-  
     padding-top:20px;
     padding-bottom: 60px;
     width: 97%;
@@ -117,7 +122,10 @@ div > p {
     text-align: left;
 }
 
-
+div > header > nav {
+  text-align:center;
+  position:fixed; top:0; width: 100%;
+  }
 
 /* Some default styles to make each box visible. This targets all items with a class that starts with "box" */
 [class^="box"] {
@@ -134,9 +142,9 @@ div > p {
 .box3 { background:rgb(50, 50, 50);}
 .box4 { background:rgb(50, 50, 50);}
 .box5 { background:rgb(50, 50, 50);}
-box6 { background:#2e3f64;}
-box7 { background:#2e3f64;}
-
+.box6 { background:rgb(50, 50, 50);}
+.box7 { background:rgb(50, 50, 50);}
+.box8 { background:rgb(50, 50, 50);}
 
 .flex-container {
 
@@ -160,23 +168,23 @@ box7 { background:#2e3f64;}
   margin-top: 3px;
   height: 45%;
   order:0;  
-  width: 48.5%;
-  font-size: 20px;
+  width: 48%;
+  font-size: 18px;
 
 }
 .box2 {
   margin-top: 3px;
   height: 45%;
   order:0;
-  width:48.5%;
-  font-size: 20px
+  width:48%;
+  font-size: 18px
 }
 
 .box3 {
   margin-top:4px;
   order:1;
   width:33%;
-  font-size: 15px;
+  font-size: 20px;
   height: 47%;
 }
 
@@ -184,7 +192,7 @@ box7 { background:#2e3f64;}
   margin-top:4px;
   order:1;
   width:29%;
-  font-size: 15px;
+  font-size: 20px;
   height: 47%;
 
 }
@@ -193,18 +201,33 @@ box7 { background:#2e3f64;}
   margin-top:4px;
   order:1;
   width:33%;
-  font-size: 15px;
+  font-size: 20px;
   height: 47%;
 
 
 }
 .box6 {
+  margin-top:4px;
   order:2;
   width:33%;
+  font-size: 15px;
+  height: 47%;
 
 }
 .box7 {
+  margin-top:4px;
+  order:2;
+  width:29%;
+  height: 47%;
+}
+.box7  {
+  font-size: 15px;
+}
+
+.box8 {
+  margin-top:4px;
   order:2;
   width:33%;
-
+  font-size: 15px;
+  height: 47%;
 }
