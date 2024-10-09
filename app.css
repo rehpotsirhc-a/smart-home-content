@@ -1,10 +1,21 @@
+header{
+  text-align:center;
+}
 
 h1{
   font-family: 'Brush Script MT', cursive;
   font-size: 60px;
   line-height: 0px;
+  text-align: center;
 }
 
+h2{
+  text-align:center;
+}
+
+header > img{
+  text-align: center;
+}
 em{
     font-family: 'Brush Script MT', cursive;
     font-size: 40px;
@@ -15,12 +26,8 @@ nav{
     background-color:rgb(50, 50, 50);
     padding:2mm;
     color: #c7d8fd;
+    text-align: center;
 
-}
-
-a{
-text-decoration: none;
-color:white;
 }
 
 body{
@@ -30,19 +37,7 @@ body{
 nav > a {
     background-color: rgb(225, 235, 255);
     display:inline-block;
-    padding: 2mm;
-    border-radius: 0.15em;
-    color:black;
-    text-decoration: none;
-    transition-duration: 150ms ;
-    transition-property: color;
-    transition-delay: 0ms ;
-    transition-timing-function: ease ;
-}
- a {
-    background-color: rgb(225, 235, 255);
-    display:inline-block;
-    padding: 2mm;
+    padding: 3mm;
     border-radius: 0.15em;
     color:black;
     text-decoration: none;
@@ -52,33 +47,7 @@ nav > a {
     transition-timing-function: ease ;
 }
 
-nav > center > a {
-    background-color: rgb(225, 235, 255);
-    display:inline-block;
-    padding: 2mm;
-    border-radius: 0.15em;
-    color:black;
-    text-decoration: none;
-    transition-duration: 150ms ;
-    transition-property: color;
-    transition-delay: 0ms ;
-    transition-timing-function: ease ;
-}
-
-center > a {
-    background-color: rgb(225, 235, 255);
-    display:inline-block;
-    padding: 2mm;
-    border-radius: 0.15em;
-    color:black;
-    text-decoration: none;
-    transition-duration: 150ms ;
-    transition-property: color;
-    transition-delay: 0ms ;
-    transition-timing-function: ease ;
-}
-
-
+/* header hover functions */
 nav > a:hover  {
     background-color: aliceblue;
     color: #2e3f64;
@@ -89,9 +58,16 @@ nav > footer > a:hover  {
   color: #2e3f64;
 }
 
+footer > aside > nav  {
+  padding: 30px;
+  margin-top: x;
+ 
+}
+
 img {
     border: 4px solid rgb(0, 0, 0);
 }
+
 p{
 text-align: center;
 }
@@ -99,23 +75,18 @@ text-align: center;
 aside{
     padding-left:15px;
     padding-top:20px;
-    padding-bottom: 60px;
-    width: 97%;
-    height: 10%;
-    float: center;
+    padding-bottom: px;
+    width: 97.5%;
+    height: 18%;
     background-color: #2e3f64;
     text-align:left;
 }
 
-footer > center > aside{
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 25px;
-    padding-bottom: 30px;
-    width: 100%;
-    float: right;
-    background-color: rgb(50, 50, 50);
-    text-align: center;
+aside > nav {
+  padding-left:15px;
+  padding-top:20px;
+  padding-bottom: 60px;
+  width: 98.5%;
 }
 
 div > p {
@@ -127,7 +98,8 @@ div > header > nav {
   position:fixed; top:0; width: 100%;
   }
 
-/* Some default styles to make each box visible. This targets all items with a class that starts with "box" */
+
+/* Flex boxs for all pages */
 [class^="box"] {
   color:white;
   font-size: 5px;
@@ -150,7 +122,7 @@ div > header > nav {
 
   border:10px solid #2e3f64;
   width:70vw;
-  height:110vh;
+  
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -164,9 +136,8 @@ div > header > nav {
 }
 
 .box1 {
-  border:px solid; 
   margin-top: 3px;
-  height: 45%;
+  height: 540px;
   order:0;  
   width: 48%;
   font-size: 18px;
@@ -174,7 +145,7 @@ div > header > nav {
 }
 .box2 {
   margin-top: 3px;
-  height: 45%;
+  height: 540px;
   order:0;
   width:48%;
   font-size: 18px
@@ -185,7 +156,7 @@ div > header > nav {
   order:1;
   width:33%;
   font-size: 20px;
-  height: 47%;
+  height: 550px;
 }
 
 .box4 {
@@ -193,7 +164,7 @@ div > header > nav {
   order:1;
   width:29%;
   font-size: 20px;
-  height: 47%;
+  height: 550px;
 
 }
 
@@ -202,7 +173,7 @@ div > header > nav {
   order:1;
   width:33%;
   font-size: 20px;
-  height: 47%;
+  height: 550px;
 
 
 }
@@ -211,14 +182,14 @@ div > header > nav {
   order:2;
   width:33%;
   font-size: 15px;
-  height: 47%;
+  height: 550px;
 
 }
 .box7 {
   margin-top:4px;
   order:2;
   width:29%;
-  height: 47%;
+  height: 550px;
 }
 .box7  {
   font-size: 15px;
@@ -229,5 +200,90 @@ div > header > nav {
   order:2;
   width:33%;
   font-size: 15px;
-  height: 47%;
+  height: 550px;
+}
+
+
+
+.boxa { background:rgb(50, 50, 50);}
+.boxb { background:rgb(50, 50, 50);}
+.boxc { background:rgb(50, 50, 50);}
+.boxd { background:rgb(50, 50, 50);}
+.boxe { background:rgb(50, 50, 50);}
+.boxf { background:rgb(50, 50, 50);}
+.boxg { background:rgb(50, 50, 50);}
+
+
+.flex-cont {
+
+  border:10px solid #2e3f64;
+  width:70vw;
+ 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto ;
+}
+
+[class^="box2"] {
+    
+}
+
+.boxa {
+  margin-top: 3px;
+  height: 45%;
+  order:0;  
+  width: 50%;
+  font-size: 20px;
+
+}
+.boxb {
+  margin-top: 3px;
+  height: 45%;
+  order:1;  
+  width: 50%;
+  font-size: 20px;
+}
+
+.boxc {
+  margin-top: 3px;
+  height: 45%;
+  order:1;  
+  width: 50%;
+  font-size: 20px;
+}
+
+.boxd {
+  margin-top: 3px;
+  height: 45%;
+  order:3;  
+  width: 50%;
+  font-size: 20px;
+
+}
+
+.boxe { 
+  margin-top: 3px;
+  height: 45%;
+  order:4;  
+  width: 50%;
+  font-size: 20px;
+
+
+}
+.boxf { 
+  margin-top: 3px;
+  height: 45%;
+  order:5;  
+  width: 50%;
+  font-size: 20px;
+
+}
+.boxg {
+  margin-top: 3px;
+  height: 45%;
+  order:6;  
+  width: 50%;
+  font-size: 20px;
 }
