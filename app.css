@@ -25,6 +25,8 @@ em{
 nav{
     background-color:rgb(50, 50, 50);
     padding:2mm;
+    padding-top:10px;
+    padding-bottom: 5px;
     color: #c7d8fd;
     text-align: center;
 
@@ -59,9 +61,8 @@ nav > footer > a:hover  {
 }
 
 footer > aside > nav  {
-  padding: 30px;
-
- 
+ padding: 20px;
+ padding-right: 25px;
 }
 
 img {
@@ -72,20 +73,21 @@ p{
 text-align: center;
 }
 
-aside{
-    padding-left:15px;
-    padding-top:20px;
-    width: 97.5%;
-    height: 18%;
-    background-color: #2e3f64;
-    text-align:left;
-}
 
 aside > nav {
   padding-left:15px;
   padding-top:20px;
   padding-bottom: 60px;
-  width: 98.5%;
+  width: 97.7%;
+}
+
+div > aside{
+  padding-left:15px;
+  padding-top:20px;
+  width: 96.5%;
+  height: 23%;
+  background-color: #2e3f64;
+  text-align:left;
 }
 
 div > p {
@@ -96,7 +98,6 @@ div > header > nav {
   text-align:center;
   position:fixed; top:0; width: 100%;
   }
-
 
 /* Flex boxs for all pages */
 [class^="box"] {
@@ -138,16 +139,16 @@ div > header > nav {
   margin-top: 3px;
   height: 540px;
   order:0;  
-  width: 48%;
-  font-size: 18px;
+  width: 48.4%;
+  font-size: 20px;
 
 }
 .box2 {
   margin-top: 3px;
   height: 540px;
   order:0;
-  width:48%;
-  font-size: 18px
+  width:48.4%;
+  font-size: 20px
 }
 
 .box3 {
@@ -202,7 +203,7 @@ div > header > nav {
   height: 550px;
 }
 
-
+#boxle {padding-bottom: 200px;}
 
 .boxa { background:rgb(50, 50, 50);}
 .boxb { background:rgb(50, 50, 50);}
@@ -225,8 +226,8 @@ div > header > nav {
   margin: auto ;
 }
 
-[class^="box2"] {
-    
+[class^="flexcont"] {
+
 }
 
 .boxa {
@@ -243,6 +244,7 @@ div > header > nav {
   order:1;  
   width: 50%;
   font-size: 20px;
+  
 }
 
 .boxc {
