@@ -24,7 +24,6 @@ em{
 
 nav{
     background-color:rgb(50, 50, 50);
-    padding:2mm;
     padding-top:10px;
     padding-bottom: 5px;
     color: #c7d8fd;
@@ -98,6 +97,7 @@ div > header > nav {
   text-align:center;
   position:fixed; top:0; width: 100%;
   }
+
 
 /* Flex boxs for all pages */
 [class^="box"] {
