@@ -4,7 +4,31 @@ header{
 }
 
 /* Safety aside padding in flex-con*/
-#saf{
+#saf1{
+  padding-bottom: 20px;
+}
+
+#saf2{
+  padding-bottom: 20px;
+}
+
+#saf3{
+  padding-bottom: 20px;
+}
+
+#saf4{
+  padding-bottom: 20px;
+}
+
+#saf5{
+  padding-bottom: 20px;
+}
+
+#saf6{
+  padding-bottom: 20px;
+}
+
+#saf7{
   padding-bottom: 20px;
 }
 
@@ -171,8 +195,8 @@ div > header > nav {
   order:0;  
   width: 48.4%;
   font-size: 20px;
-
 }
+
 .box2 {
   margin-top: 3px;
   height: 540px;
@@ -207,6 +231,7 @@ div > header > nav {
 
 
 }
+
 .box6 {
   margin-top:4px;
   order:2;
@@ -215,6 +240,7 @@ div > header > nav {
   height: 550px;
 
 }
+
 .box7 {
   margin-top:4px;
   order:2;
