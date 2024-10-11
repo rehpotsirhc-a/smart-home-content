@@ -193,7 +193,7 @@ div > header > nav {
   height: 540px;
   order:0;  
   width: 48.4%;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .box2 {
@@ -201,14 +201,14 @@ div > header > nav {
   height: 540px;
   order:0;
   width:48.4%;
-  font-size: 20px
+  font-size: 18px
 }
 
 .box3 {
   margin-top:4px;
   order:1;
   width:33%;
-  font-size: 20px;
+  font-size: 18px;
   height: 550px;
 }
 
@@ -216,7 +216,7 @@ div > header > nav {
   margin-top:4px;
   order:1;
   width:29%;
-  font-size: 20px;
+  font-size: 18px;
   height: 550px;
 
 }
@@ -225,7 +225,7 @@ div > header > nav {
   margin-top:4px;
   order:1;
   width:33%;
-  font-size: 20px;
+  font-size: 18px;
   height: 550px;
 
 
@@ -235,7 +235,7 @@ div > header > nav {
   margin-top:4px;
   order:2;
   width:33%;
-  font-size: 15px;
+  font-size: 18px;
   height: 550px;
 
 }
@@ -245,7 +245,7 @@ div > header > nav {
   order:2;
   width:29%;
   height: 550px;
-  font-size:15px;
+  font-size:18px;
 }
 
 
@@ -253,7 +253,7 @@ div > header > nav {
   margin-top:4px;
   order:2;
   width:33%;
-  font-size: 15px;
+  font-size: 18px;
   height: 550px;
 }
 
