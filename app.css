@@ -1,11 +1,14 @@
+/* All things in headers align */
 header{
   text-align:center;
 }
 
+/* Safety aside padding in flex-con*/
 #saf{
   padding-bottom: 20px;
 }
 
+/* Fonts for h1s */
 h1{
   font-family: 'Brush Script MT', cursive;
   font-size: 60px;
@@ -13,37 +16,44 @@ h1{
   text-align: center;
 }
 
+/* Heading text margin alignment*/
 #yap {
   margin-left: 300px;
   margin-right: 300px;
 }
 
+/* H2 alignment*/
 h2{
   text-align:center;
 }
 
+/* Header image alignment*/
 header > img{
   text-align: center;
 }
+
+/* Fonts on em */
 em{
-    font-family: 'Brush Script MT', cursive;
-    font-size: 40px;
-  }
+  font-family: 'Brush Script MT', cursive;
+  font-size: 40px;
+}
 
-
+/* Nav styling */
 nav{
     background-color:rgb(50, 50, 50);
     padding-top:10px;
     padding-bottom: 5px;
     color: #c7d8fd;
     text-align: center;
-
 }
 
+/* Explanatory */
 body{
     color:white;
     background-color:#2e3f64;
 }
+
+/* Nav styling */
 nav > a {
     background-color: rgb(225, 235, 255);
     display:inline-block;
@@ -57,7 +67,7 @@ nav > a {
     transition-timing-function: ease ;
 }
 
-/* header hover functions */
+/* Header hover functions */
 nav > a:hover  {
     background-color: aliceblue;
     color: #2e3f64;
@@ -68,20 +78,23 @@ nav > footer > a:hover  {
   color: #2e3f64;
 }
 
+/* Footer bar padding */
 footer > aside > nav  {
  padding: 20px;
  padding-right: 25px;
 }
 
+/* Explanatory*/
 img {
     border: 4px solid rgb(0, 0, 0);
 }
 
+/* Text alings on screen */
 p{
 text-align: center;
 }
 
-
+/* Nav bar padding*/
 aside > nav {
   padding-left:15px;
   padding-top:20px;
@@ -89,6 +102,7 @@ aside > nav {
   width: 97.7%;
 }
 
+/* Asides inside divs get correct padding*/
 div > aside{
   padding-left:15px;
   padding-top:20px;
@@ -98,16 +112,18 @@ div > aside{
   text-align:left;
 }
 
+/* Aligns any text to left insid divs*/
 div > p {
     text-align: left;
 }
 
+/* Fixes and centers header nav bar*/
 div > header > nav {
   text-align:center;
   position:fixed; top:0; width: 100%;
-  }
+}
 
-
+/* Hide scrollbars on safety */
  #scroll {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -118,7 +134,7 @@ div > header > nav {
   display: none;
 }
 
-/* Flex boxs for all pages */
+/* Flex boxs for index*/
 [class^="box"] {
   color:white;
   font-size: 5px;
@@ -127,7 +143,6 @@ div > header > nav {
   padding:10px;
 }
 
-/* Colors for each box */
 .box1 { background:rgb(50, 50, 50);}
 .box2 { background:rgb(50, 50, 50);}
 .box3 { background:rgb(50, 50, 50);}
@@ -148,10 +163,6 @@ div > header > nav {
   justify-content: space-around;
   text-align: center;
   margin: auto ;
-}
-
-[class^="box"] {
-    
 }
 
 .box1 {
@@ -209,10 +220,9 @@ div > header > nav {
   order:2;
   width:29%;
   height: 550px;
+  font-size:15px;
 }
-.box7  {
-  font-size: 15px;
-}
+
 
 .box8 {
   margin-top:4px;
@@ -222,6 +232,8 @@ div > header > nav {
   height: 550px;
 }
 
+
+/* Flex boxs for safety*/
 #boxle {padding-bottom: 200px;}
 
 .boxa { background:rgb(50, 50, 50);}
@@ -298,6 +310,7 @@ main > section > aside {
 
 
 }
+
 .boxf { 
   margin-top: 3px;
   height: 45%;
@@ -306,6 +319,7 @@ main > section > aside {
   font-size: 20px;
 
 }
+
 .boxg {
   margin-top: 3px;
   height: 45%;
