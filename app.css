@@ -2,12 +2,20 @@ header{
   text-align:center;
 }
 
+#saf{
+  padding-bottom: 20px;
+}
 
 h1{
   font-family: 'Brush Script MT', cursive;
   font-size: 60px;
   line-height: 0px;
   text-align: center;
+}
+
+#yap {
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 h2{
@@ -99,6 +107,16 @@ div > header > nav {
   position:fixed; top:0; width: 100%;
   }
 
+
+ #scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll; 
+}
+
+#scroll ::-webkit-scrollbar {
+  display: none;
+}
 
 /* Flex boxs for all pages */
 [class^="box"] {
@@ -215,7 +233,7 @@ div > header > nav {
 .boxg { background:rgb(50, 50, 50);}
 
 
-.flex-cont {
+.flex-con {
 
   border:10px solid #2e3f64;
   width:70vw;
@@ -227,9 +245,14 @@ div > header > nav {
   margin: auto ;
 }
 
-[class^="flexcont"] {
-
+[class^="flex-con"] {
+ padding-bottom: 200px ;
 }
+
+main > section > aside {
+  padding-bottom: 200px;
+}
+
 
 .boxa {
   margin-top: 3px;
@@ -237,6 +260,7 @@ div > header > nav {
   order:0;  
   width: 50%;
   font-size: 20px;
+  
 
 }
 .boxb {
