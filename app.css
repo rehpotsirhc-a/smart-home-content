@@ -113,7 +113,7 @@ img {
     border: 4px solid rgb(0, 0, 0);
 }
 
-/* Text alings on screen */
+/* Text aligns on screen */
 p{
 text-align: center;
 }
@@ -136,7 +136,7 @@ div > aside{
   text-align:left;
 }
 
-/* Aligns any text to left insid divs*/
+/* Aligns any text to left inside divs*/
 div > p {
     text-align: left;
 }
@@ -147,7 +147,7 @@ div > header > nav {
   position:fixed; top:0; width: 100%;
 }
 
-/* Hide scrollbars on safety */
+/* Hide scroll-bars on safety */
  #scroll {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -158,7 +158,7 @@ div > header > nav {
   display: none;
 }
 
-/* Flex boxs for index*/
+/* Flex boxes for index*/
 [class^="box"] {
   color:white;
   font-size: 5px;
@@ -180,7 +180,6 @@ div > header > nav {
 
   border:10px solid #2e3f64;
   width:70vw;
-  
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -259,7 +258,7 @@ div > header > nav {
 }
 
 
-/* Flex boxs for safety*/
+/* Flex boxes for safety*/
 #boxle {padding-bottom: 200px;}
 
 .boxa { background:rgb(50, 50, 50);}
@@ -275,7 +274,6 @@ div > header > nav {
 
   border:10px solid #2e3f64;
   width:70vw;
- 
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
